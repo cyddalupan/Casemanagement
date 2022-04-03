@@ -1,0 +1,52 @@
+@import url(//fonts.googleapis.com/css?family=Kaushan+Script);
+body,
+label,
+.checkbox label {
+  font-weight: 300;
+}
+/*! 
+ *   Case Management
+ *   Author: Cyd Dalupan <cyddalupan@gmail.com>
+!*/
+.header {
+  background-color: #3c8dbc;
+  color: #ffffff;
+}
+.header .header-logo {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Kaushan Script', cursive;
+  background-color: #367fa9;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.header .icons .user {
+  font-size: 18px;
+  margin-top: 12px;
+  margin-right: 18px;
+  color: #ffffff;
+}
+.header .icons .settings {
+  font-size: 18px;
+  margin-top: 12px;
+  margin-right: 18px;
+  color: #ffffff;
+}
+.body {
+  background: #f4f4f4;
+  box-shadow: inset -3px 0px 8px -4px rgba(0, 0, 0, 0.07);
+}
+.body .sidebar {
+  padding-right: 0;
+}
+.body .sidebar .list-group .collapse .list-group-item {
+  padding-left: 37px;
+}
+.body .sidebar .list-group .list-group-item {
+  background: #f4f4f4;
+}
+.body .content {
+  background: #fff;
+}
+
+/*# sourceMappingURL=app.css.map */
